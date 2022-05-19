@@ -29,7 +29,7 @@ In the window that pops up, create a graph by placing vertices with left-mouse c
 
 ![](https://github.com/not-so-frank-sinatra/edmonds-blossom-algorithm/blob/main/Inputs.gif)
 
-Now head over to the terminal and press the *Enter* key to see how the algorithm proceeds step-by-step till the maximum matching is obtained. Once we obtain the maximum matching, the program shall ask you to press *Enter* key thrice to terminate the program.
+Now head over to the terminal and press the *Enter* key to see how the algorithm proceeds step-by-step till the maximum matching is obtained. Once we obtain the maximum matching, the program shall ask us to press the *Enter* key thrice to terminate the program.
 
 ![](https://github.com/not-so-frank-sinatra/edmonds-blossom-algorithm/blob/main/Matching.gif)
 
@@ -41,7 +41,7 @@ The graph represents matched edges in 🔴 *red* color and unmatched edges in �
 |🔴| The active vertex which is being studied |
 |🟢| The vertex for which we are finding the augmenting path |
 |🔵| The vertex whose children are being explored |
-|🟡| The vertex belongs to a blossom |
+|🟡| The vertex belonging to a blossom |
 |🟠| The vertex is the father of the active vertex |
 |⚪| A regular vertex which is none of the above |
 
